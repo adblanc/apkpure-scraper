@@ -37,16 +37,16 @@
     "singleQuote": false,
     "trailingComma": "es5"
   },
-  "name": "apkpure-scrapper",
+  "name": "apkpure-scraper",
   "author": "adblanc",
-  "module": "dist/apkpure-scrapper.esm.js",
+  "module": "dist/apkpure-scraper.esm.js",
   "size-limit": [
     {
-      "path": "dist/apkpure-scrapper.cjs.production.min.js",
+      "path": "dist/apkpure-scraper.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/apkpure-scrapper.esm.js",
+      "path": "dist/apkpure-scraper.esm.js",
       "limit": "10 KB"
     }
   ],

@@ -1,4 +1,4 @@
-# apkpure-scrapper
+# apkpure-scraper
 
 Simple library for simple needs.
 
@@ -6,23 +6,23 @@ Simple library for simple needs.
 
 ```sh
 # with yarn
-yarn add apkpure-scrapper
+yarn add apkpure-scraper
 
 # or with npm
-npm install apkpure-scrapper
+npm install apkpure-scraper
 ```
 
 ## Example
 
 ```typescript
-import scrape from "apkpure-scrapper";
+import scrape from "apkpure-scraper";
 
 async function getInstagramDetails() {
-  const { downloadLink, title, version } = await scrape(
+  const { downloadLink, title, version, type } = await scrape(
     "com.instagram.android"
   );
 
-  console.log(downloadLink, title, version);
+  console.log(downloadLink, title, version, type);
 }
 
 getInstagramDetails();
